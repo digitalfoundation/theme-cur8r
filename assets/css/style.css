@@ -111,6 +111,7 @@ font-size: 18px;
   float: left;
   padding: 19px 0 0 38px;
   display: inline-block;
+  font-weight: normal;
 }
 div.header h1.logo a {
   color: #ffffff;
@@ -144,22 +145,22 @@ div.header ul.nav li a.active {
   color: #2AA600;
 }
 
-div.header ul.social {
+div.right ul.social {
   padding: 30px 35px 0 0;
   float: right;
   display: inline-block;
 }
-div.header ul.social li {
+div.right ul.social li {
   padding: 0;
   margin: 0;
   display: inline-block;
   margin-left: 20px;
 }
-div.header ul.social li a {
+div.right ul.social li a {
   font-size: 1.5rem;
   color: #464748;
 }
-div.header ul.social li a:hover {
+div.right ul.social li a:hover {
   color: #2AA600;
 }
 div.header:after {

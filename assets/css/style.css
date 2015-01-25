@@ -190,13 +190,13 @@ div.mobile-nav a.toggle {
   color: #ffffff;
 }
 div.mobile-nav a.toggle:hover {
-  color: #2AA600;
+  color: #ffffff;
 }
 div.mobile-nav ul {
   display: none;
   border-top: 1px solid #464748;
   position: absolute;
-  top: 80px;
+  top: 50px;
   right: 0;
   -ms-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -706,9 +706,7 @@ div.pagination:after {
   }
 }
 @media (max-width: 931px) {
-  div.header ul.social {
-    display: none;
-  }
+  
   div.header ul.nav {
     padding-left: 35px;
   }
@@ -732,7 +730,7 @@ div.pagination:after {
 }
 @media (max-width: 825px) {
   ul.nav {
-    display: none;
+ 
   }
 }
 @media (max-width: 725px) {
@@ -900,3 +898,150 @@ letter-spacing: -1px;
   line-height: 10pt;
   padding: 7px;
 }
+
+@media (max-width: 560px) {
+  div.header ul.nav {
+    display: none;
+  }
+ div.header h1.logo {
+font-size: 15px;
+padding: 13px 0 0 5px;
+letter-spacing: -1px;
+ }
+ 
+  div.mobile-nav {
+    display: block;
+  }
+  div.post-wrapper {
+    width: 100%;
+  }
+  div.post-wrapper div.post-fragment {
+    clear: both;
+    width: 100%;
+    height: auto;
+    margin-bottom: 35px;
+  }
+  div.post-wrapper div.post-fragment ul.tags {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    padding: 10px 0 10px 10px;
+  }
+  div.post {
+    padding: 35px;
+  }
+  div.post h2 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+}
+.post-pdf {
+  position: relative;
+}
+.post-pdf .pdf-fullscreen {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: #000;
+  font-size: 12px;
+  background-color: #2AA600;
+  padding: 10px;
+  border-radius: 7px;
+  -moz-opacity: 0.3;
+  -khtml-opacity: 0.3;
+  -webkit-opacity: 0.3;
+  opacity: 0.3;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+  filter: alpha(opacity=30);
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  -webkit-appearance: none;
+  cursor: pointer;
+  border: 0;
+}
+.post-pdf .pdf-fullscreen:hover {
+  color: #fff;
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+  filter: alpha(opacity=100);
+}
+.post-pdf object {
+  display: block;
+  min-height: 400px;
+}
+.login {
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: block;
+  width: 100%;
+  padding-top: 100px;
+  background-color: transparent;
+}
+.login form {
+  background-color: #fff;
+  padding: 40px;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  width: 380px;
+  margin: 0 auto;
+}
+.login form div {
+  padding-bottom: 7px;
+}
+.login input {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-size: 12pt;
+  line-height: 12pt;
+  padding: 7px;
+}
+.login input.input-password {
+  margin: 0;
+}
+.login input.input-submit {
+  color: #fff;
+  border: 0;
+  background-color: #2eb18d;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.login label {
+  font-weight: bold;
+  font-size: 10pt;
+  line-height: 10pt;
+  padding-bottom: 7px;
+}
+.login p {
+  padding-bottom: 20px;
+  margin: 0;
+}
+.login p.login-copyright {
+  padding-top: 20px;
+  font-size: 9pt;
+}
+.login .login-error {
+  display: block;
+  background-color: #f76643;
+  color: #fff;
+  font-size: 10pt;
+  line-height: 10pt;
+  padding: 7px;
+}
+

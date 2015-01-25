@@ -696,6 +696,9 @@ div.pagination:after {
   div.header ul.nav {
     padding-left: 35px;
   }
+  div.header {
+  height: 93px;}
+  
   div.header ul.nav li {
     margin-right: 35px;
   }
@@ -706,7 +709,8 @@ div.pagination:after {
   }
 }
 @media (max-width: 931px) {
-  
+  div.header {
+  height: 93px;}
   div.header ul.nav {
     padding-left: 35px;
   }

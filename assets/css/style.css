@@ -108,12 +108,11 @@ div.header h1.logo {
   float: left;
   font-size: 1rem;
   font-weight: 700;
-  text-transform: uppercase;
-  padding: 15px 0 0 38px;
+  padding: 19px 0 0 38px;
   display: inline-block;
 }
 div.header h1.logo a {
-  color: #464748;
+  color: #ffffff;
 }
 div.header h1.logo a:hover {
   color: #2AA600;

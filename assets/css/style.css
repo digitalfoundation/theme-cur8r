@@ -89,7 +89,7 @@ div.wrapper {
 }
 span.typcn {
   position: relative;
-  top: -2px;
+  top: -23px;
 }
 div.header {
   position: fixed;
@@ -184,10 +184,10 @@ div.mobile-nav a.toggle {
   display: block;
   z-index: 10000;
   position: absolute;
-  top: 30px;
-  right: 30px;
-  font-size: 1.5rem;
-  color: #464748;
+  top: 1px;
+  right: 20px;
+  font-size: 2rem;
+  color: #ffffff;
 }
 div.mobile-nav a.toggle:hover {
   color: #2AA600;

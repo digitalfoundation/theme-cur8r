@@ -23,6 +23,7 @@ body {
   height: 100%;
   width: 100%;
   background-color: #e7e2d0;
+  color:  #192f53;
   font-size: 100%;
   /* 16px */
   line-height: 1.5;
@@ -37,7 +38,6 @@ td,
 ol,
 p,
 h1,
-h2,
 h3,
 h4 {
   margin: 0;
@@ -47,7 +47,6 @@ h4 {
   color: #000000;
   list-style-type: none;
 }
-h1,
 h2 {
   font-size: 1rem;
   line-height: 1rem;
@@ -385,6 +384,7 @@ div.post-wrapper div.post-fragment div.post-details h2 {
   padding: 0;
   margin: 0;
   font-weight: 700;
+  
 }
 div.post-wrapper div.post-fragment div.post-details h2 a {
   color: #464748;
@@ -437,6 +437,9 @@ div.post {
 div.post h2 {
   font-size: 3rem;
   line-height: 4rem;
+  color:#218B90;
+  font-weight: normal;
+  
 }
 div.post h2 a {
   color: #464748;

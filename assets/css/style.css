@@ -82,20 +82,7 @@ a:hover {
   text-decoration: none;
   color: #ee770d;
 }
-
-
-/* Custom Css */
-.navbar-default {
-background-color: #FFAE00;}
-.navbar-default .navbar-brand {
-color: #FFF;
-}
-.navbar-default .navbar-nav>li>a {
-color: #FFF;
-}
-
 /* make mixin for less verbose */
-
 div.wrapper {
   display: block;
   margin: 0 auto;

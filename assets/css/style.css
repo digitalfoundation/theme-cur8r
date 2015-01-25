@@ -120,6 +120,7 @@ div.header h1.logo a:hover {
 }
 div.header ul.nav {
   float: right;
+  padding-right: 80px;
   padding: 15px 0 0 45px;
   display: inline-block;
 }
@@ -136,12 +137,13 @@ div.header ul.nav li a {
   -webkit-font-smoothing: antialiased;
 }
 div.header ul.nav li a:hover {
-  color: #ee770d;
+  color:#2AA600;
 }
 div.header ul.nav li a.active {
   font-weight: 700;
-  color: #ee770d;
+  color: #2AA600;
 }
+
 div.header ul.social {
   padding: 30px 35px 0 0;
   float: right;

@@ -60,7 +60,7 @@
     {{ login_form }}
 
   {% else %}
-    <h1>cur8r</h1>
+    <h1>Sydney Kinesiology</h1>
 
     <div class="wrapper">
 
@@ -210,6 +210,18 @@
       <div class="right">
         <h2><img src="{{ site.avatar }}" class="avatar" /></h2>
         <h3>{{ site.name }}</h3>
+                <ul class="social">
+          {% if site.twitter %}
+          <li><a href="{{ site.twitter }}" target="_blank"><span class="typcn typcn-social-twitter"></span></a></li>
+          {% endif %}
+          {% if site.facebook %}
+          <li><a href="{{ site.facebook }}"><span class="typcn typcn-social-facebook"></span></a></li>
+          {% endif %}
+          {% if site.linkedin %}
+          <li><a href="{{ site.linkedin }}"><span class="typcn typcn-social-linkedin"></span></a></li>
+          {% endif %}
+          <li><a href="{{ site.atom_url }}"><span class="typcn typcn-rss"></span></a></li>
+        </ul>
         <p class="bio">{{ site.bio }}</p>
          <ul class="nav">
          {% if pages %}
@@ -244,18 +256,7 @@
                         <a href="http://sydneykinesiology.com/contact.html">Contact &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(02) 8006 2478</a>
                     </li>
         </ul>
-        <ul class="social">
-          {% if site.twitter %}
-          <li><a href="{{ site.twitter }}" target="_blank"><span class="typcn typcn-social-twitter"></span></a></li>
-          {% endif %}
-          {% if site.facebook %}
-          <li><a href="{{ site.facebook }}"><span class="typcn typcn-social-facebook"></span></a></li>
-          {% endif %}
-          {% if site.linkedin %}
-          <li><a href="{{ site.linkedin }}"><span class="typcn typcn-social-linkedin"></span></a></li>
-          {% endif %}
-          <li><a href="{{ site.atom_url }}"><span class="typcn typcn-rss"></span></a></li>
-        </ul>
+
       </div>
 
       <div class="mobile-nav">
